@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<title>Indonesia Merdeka (@reynld)i</title>
+<style>
+
+.container {
+	margin: 200px;
+}
+
+.title {
+	margin-top: 40px;
+}
+h1 {
+	font-size: 550%;
+}
+
+#flag-area{
+	width: 280px;
+	height: 140px;
+	background-color: #fff;
+	position: relative;
+	margin: 10px 0 0 10px;
+}
+
+#flag-area div{
+	position: absolute;
+}
+#flag-area .blue{
+	left: 0;
+	top: 0;
+	width: 140px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 140px;
+	background-color: #0035ad;
+	-o-transform: rotate(20.26deg);
+	-moz-transform: rotate(200.26deg);
+	-webkit-transform: rotate(180.26deg);
+}
+
+
+#flag-id{
+	border-style: solid;
+	width: 280px;
+	height: 140px;
+	margin-left: 200px;
+	background-color: #fff;
+	margin: 10px 0 0 10px;
+}
+
+
+#flag-id .merah{
+	width: 280px;
+	height: 70px;
+	background-color: red;
+}
+
+#flag-area .moon{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	left: 27.5px;
+	top: 10px;
+	background-color: #ffd100;
+}
+#flag-area .moon-shadow{
+	width: 53.333px;
+	height: 53.333px;
+	border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	left: 37.5px;
+	top: 13.333px;
+	background-color: #0035ad;
+}
+#flag-area .star{
+	left: 62.5px;
+	top: 15px;
+	width: 50px;
+	height: 50px;
+}
+#flag-area .star-0{
+	width: 22px;
+	height: 22px;
+	left: 14px;
+	top: 14px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #ffd100;
+	z-index: 2;
+}
+#flag-area .star-1,
+#flag-area .star-2,
+#flag-area .star-3,
+#flag-area .star-4,
+#flag-area .star-5,
+#flag-area .star-6,
+#flag-area .star-7{
+	width: 0;
+	height: 20px;
+	border-width: 15px 3px 15px 0;
+	border-color: #0035ad #ffd100;
+	border-style: solid;
+	right: 50%;
+	-o-transform-origin: right center;
+	-moz-transform-origin: right center;
+	-webkit-transform-origin: right center;
+}
+#flag-area .star-1:after,
+#flag-area .star-2:after,
+#flag-area .star-3:after,
+#flag-area .star-4:after,
+#flag-area .star-5:after,
+#flag-area .star-6:after,
+#flag-area .star-7:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 20px;
+	border-width: 15px 0 15px 3px;
+	border-color: #0035ad #ffd100;
+	border-style: solid;
+	position: absolute;
+	left: 2.75px;
+	top: -15px;
+}
+#flag-area .star-1:before,
+#flag-area .star-2:before,
+#flag-area .star-3:before,
+#flag-area .star-4:before,
+#flag-area .star-5:before,
+#flag-area .star-6:before,
+#flag-area .star-7:before{
+	content: '';
+	display: block;
+	width: 0;
+	height: 20px;
+	border-width: 14px 0 14px 2px;
+	border-color: transparent #ffd100;
+	border-style: solid;
+	position: absolute;
+	left: 2.5px;
+	top: -14px;
+	z-index: 2;
+}
+#flag-area .star-2{
+	-o-transform: rotate(25.71deg);
+	-moz-transform: rotate(25.71deg);
+	-webkit-transform: rotate(25.71deg);
+}
+#flag-area .star-3{
+	-o-transform: rotate(51.42deg);
+	-moz-transform: rotate(51.42deg);
+	-webkit-transform: rotate(51.42deg);
+}
+#flag-area .star-4{
+	-o-transform: rotate(77.13deg);
+	-moz-transform: rotate(77.13deg);
+	-webkit-transform: rotate(77.13deg);
+}
+#flag-area .star-5{
+	-o-transform: rotate(102.84deg);
+	-moz-transform: rotate(102.84deg);
+	-webkit-transform: rotate(102.84deg);
+}
+#flag-area .star-6{
+	-o-transform: rotate(128.55deg);
+	-moz-transform: rotate(128.55deg);
+	-webkit-transform: rotate(128.55deg);
+}
+#flag-area .star-7{
+	-o-transform: rotate(154.26deg);
+	-moz-transform: rotate(154.26deg);
+	-webkit-transform: rotate(154.26deg);
+}
+#flag-area .red{
+	background-color: #dc241f;
+	height: 10px;
+	width: 280px;
+}
+#flag-area .red-1,
+#flag-area .red-2,
+#flag-area .red-3,
+#flag-area .red-4{
+	width: 280px;
+	left: 0px;
+}
+#flag-area .red-2{
+	top: 20px;
+}
+#flag-area .red-3{
+	top: 40px;
+}
+#flag-area .red-4{
+	width: 140px;
+	top: 60px;
+}
+#flag-area .red-5{
+	width: 140px;
+	top: 80px;
+}
+#flag-area .red-6{
+	width: 140px;
+	top: 100px;
+}
+#flag-area .red-7{
+	width: 140px;
+	top: 120px;
+}
+
+
+</style>
+<div id="grid">
+<div class="container">
+<div id="flag-area">
+<div class="blue">
+	<div class="moon"></div>
+	<div class="moon-shadow"></div>
+	<div class="star">
+		<div class="star-0"></div>
+		<div class="star-1"></div>
+		<div class="star-2"></div>
+		<div class="star-3"></div>
+		<div class="star-4"></div>
+		<div class="star-5"></div>
+		<div class="star-6"></div>
+		<div class="star-7"></div>
+	</div>
+</div>
+<div class="red red-1"></div>
+<div class="red red-2"></div>
+<div class="red red-3"></div>
+<div class="red red-4"></div>
+<div class="red red-5"></div>
+<div class="red red-6"></div>
+<div class="red red-7"></div>
+<div class="title">
+	<h1>VS</h1>
+</div>
+</div>
+<div id="flag-id">
+<div class="merah">
+</div>
+</div>
+</div>
+</div>
